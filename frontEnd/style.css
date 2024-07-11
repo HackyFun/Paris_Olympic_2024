@@ -29,6 +29,14 @@ h1 {
   text-align: center;
 }
 
+.title {
+  display: block;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 #title {
   border: 2px solid red;
   margin-top: 50px;

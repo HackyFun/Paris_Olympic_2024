@@ -7,25 +7,27 @@
 
 body {
   flex: auto;
-  background-color: rgb(243, 243, 250);
+  background-color: rgb(180, 180, 237);
   text-align: center;
-  margin-top: 100px;
+  margin-top: 65px;
 }
 
 h1 {
   margin: 25px;
+  color: black;
+  text-transform: capitalize;
 }
 
-.countdown {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
 }
 
-#countdown {
+.countdown {
   float: left;
-  margin-right: 45px;
+  margin-right: 25px;
   text-align: center;
 }
 
@@ -35,6 +37,23 @@ h1 {
   color: black;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.countValue {
+  float: left;
+  width: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.countValue > span {
+  margin: auto;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(170, 62, 62);
 }
 
 #title {

@@ -9,9 +9,11 @@ body {
   flex: auto;
   background-color: rgb(241, 246, 211);
   text-align: center;
-  margin-top: 65px;
+  margin-top: 0;
   height: 100vh;
 }
+
+/* countdown */
 
 h1 {
   margin: 25px;
@@ -36,6 +38,7 @@ h1 {
   display: block;
   margin-bottom: 15px;
   color: black;
+  font-family: "Paris2024-Variable";
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -52,6 +55,7 @@ h1 {
 
 .countValue > span {
   margin: auto;
+  font-family: "Paris2024-Variable";
   font-size: 30px;
   font-weight: 700;
   color: rgb(170, 62, 62);
@@ -161,22 +165,27 @@ h1 {
 .blue:hover {
   animation-duration: 2s;
   animation-iteration-count: infinite;
+  cursor: pointer;
 }
 .yellow:hover {
   animation-duration: 2s;
   animation-iteration-count: infinite;
+  cursor: pointer;
 }
 .black:hover {
   animation-duration: 2s;
   animation-iteration-count: infinite;
+  cursor: pointer;
 }
 .green:hover {
   animation-duration: 2s;
   animation-iteration-count: infinite;
+  cursor: pointer;
 }
 .red:hover {
   animation-duration: 2s;
   animation-iteration-count: infinite;
+  cursor: pointer;
 }
 
 @keyframes bounce {
@@ -191,4 +200,119 @@ h1 {
 
     box-shadow: 0 0 50px rgba(255, 255, 255, 1);
   }
+}
+
+/* opener */
+
+.opener {
+  display: inline-block;
+  font-size: 40px;
+  font-family: "Paris2024-Variable";
+  font-weight: 300;
+  margin: 25px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.opener {
+  background: linear-gradient(currentColor 0 0) -20% 100% / var(--p, 10%) 3px no-repeat;
+  transition:
+    0.5s 0.3s cubic-bezier(0, 1.25, 1, 1.8),
+    background-size 0.3s;
+}
+
+.opener:hover {
+  background-position: 50% 100%;
+  --p: 50%;
+  transition:
+    0.5s cubic-bezier(0, 1.25, 1, 1.8),
+    background-size 0.2s 0.7s;
+}
+
+p {
+  display: inline-block;
+  font-size: 25px;
+  font-family: "Paris2024-Variable";
+  font-weight: 300;
+  margin: 25px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+/* background */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  /* background-color: #dddddd; */
+}
+
+ul {
+  opacity: 2;
+  width: 100%;
+  height: 100%;
+  clip-path: url(#myClip);
+  background: linear-gradient(
+    48deg,
+    #0081c8,
+    /* #d9d7ed, */ #fcb131,
+    /* #acf0ff, */ #000000,
+    /* #d9d7ed, */ #00a651,
+    /* #acf0ff, */ #ee334e
+  );
+  animation: foil 8s ease infinite;
+  background-size: 200% 200%;
+}
+
+@keyframes foil {
+  0% {
+    background-position: 84% 0;
+  }
+  50% {
+    background-position: 17% 100%;
+  }
+  100% {
+    background-position: 84% 0;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
 }

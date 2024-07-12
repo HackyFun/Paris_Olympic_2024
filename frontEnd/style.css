@@ -192,3 +192,11 @@ h1 {
     box-shadow: 0 0 50px rgba(255, 255, 255, 1);
   }
 }
+
+
+/** graphs **/
+
+.Medals {
+  width: 70%;
+  height: auto;
+}

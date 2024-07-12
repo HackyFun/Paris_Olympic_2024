@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Poppins";
+  font-family: "Paris2024-Variable";
   box-sizing: border-box;
 }
 
@@ -309,6 +309,7 @@ li {
 li a {
   display: block;
   color: white;
+  font-family: "Paris2024-Variable";
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -324,3 +325,12 @@ li a:hover {
 }
 
 
+=======
+#quote {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Paris2024-Variable";
+  font-weight: 300;
+  color: white;
+}

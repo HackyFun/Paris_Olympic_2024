@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
   const quotes = [
-    "WONG-ORANTES Justine	United States	USA	2020  Tokyo	Volleyball	Women Team	Gold",
-    "TONIUTTI Benjamin	France	FRA	2020  Tokyo	Volleyball	Men Team	Gold",
-    "ZADORSKY Shelina	Canada	CAN	2020 Tokyo	Football	Women Team	Gold",
-    "ZVEREV Alexander	Germany	GER	2020 Tokyo	Tennis	Men's Singles	Gold",
-    "WILSON A'ja United States	USA	2020  Tokyo	Basketball	Women Team	Gold",
-    "ZHANG Yifan China	CHN	2020 Tokyo	Swimming	Women's 4 x 200m Freestyle Relay Team	Gold",
-    "ZVEREV Alexander	Germany	GER	2020 Tokyo	Tennis	Men's Singles	Gold",
+    "WONG-ORANTES Justine	United States	USA	2020 	Tokyo	Volleyball	Women Team	Gold   ",
+    "TONIUTTI Benjamin	France	FRA	2020 	Tokyo	Volleyball	Men Team	Gold",
+    "ZADORSKY Shelina	Canada	CAN	2020 	Tokyo	Football	Women Team	Gold",
+    "ZVEREV Alexander	Germany	GER	2020 	Tokyo	Tennis	Men's Singles	Gold",
+    "WILSON A'ja United States	USA	2020 	Tokyo	Basketball	Women Team	Gold",
+    "ZHANG Yifan China	CHN	2020 	Tokyo	Swimming	Women's 4 x 200m Freestyle Relay Team	Gold",
+    "ZVEREV Alexander	Germany	GER	2020 	Tokyo	Tennis	Men's Singles	Gold",
   ];
 
   function getRandomQuote() {

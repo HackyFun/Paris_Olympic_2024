@@ -316,3 +316,13 @@ li a:hover {
 .active {
   background-color: #04aa6d;
 }
+
+#quote {
+  display: inline-block;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Paris2024-Variable";
+  font-weight: 300;
+  color: white;
+}

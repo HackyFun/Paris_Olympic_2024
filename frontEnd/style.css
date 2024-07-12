@@ -78,7 +78,7 @@ h1 {
 .medal_title {
   color: #2f3133;
   margin-bottom: 20px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .medal_graph {
@@ -324,8 +324,6 @@ li a:hover {
   background-color: #04aa6d;
 }
 
-
-=======
 #quote {
   display: inline-block;
   margin-top: 10px;
